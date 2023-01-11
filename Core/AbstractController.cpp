@@ -1,4 +1,4 @@
-#include "AbstractController.h"
+#include <Core/AbstractController.h>
 
 
 namespace Core

@@ -4,7 +4,7 @@
 #include <SFML/Graphics.hpp>
 #include <string>
 #include <queue>
-#include "vec2.h"
+#include <bm/vec2.h>
 
 class debug
 {

@@ -1,7 +1,7 @@
 
 
-//#include "Core/Core.h"
-//#include "myGUI/RenderWidget.h"
+#include <Core/Core.h>
+#include <myGUI/RenderWidget.h>
 
 /*
 class Object: public sf::Drawable
@@ -55,8 +55,10 @@ int main()
 {
 	//sf::RenderWindow rw(sf::VideoMode(1080,2160),"");
 	
-    //auto core = Core::Core::Instance();
-    //core.RenderWidget()->init();
+    auto core = Core::Core::Instance();
+    core.RenderWidget()->init();
+    core.RenderWidget()->setTitle("myGame");
+    core.RenderWidget()->setSize(100,100);
     //core.RenderWidget()->show();
 
 	/*font.loadFromFile("/system/fonts/DroidSansMono.ttf");
@@ -96,6 +98,6 @@ int main()
 		//btn.draw(rw);
 		//rw.display();
 	}*/
-	//int res = core.exec();
-	//return res;
+	int res = core.exec();
+	return res;
 }

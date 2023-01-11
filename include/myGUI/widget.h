@@ -3,7 +3,8 @@
 
 #include <vector>
 #include <SFML/Graphics.hpp>
-#include  "../vec2.h"
+#include  <bm/vec2.h>
+
 
 
 namespace myGUI

@@ -1,5 +1,5 @@
-#include "button.h"
-
+#include <myGUI/button.h>
+#include <cstring>
 
 #define defaultButtonText ("Button")
 

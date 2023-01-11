@@ -1,4 +1,4 @@
-#include "widget.h"
+#include <myGUI/widget.h>
 
 
 namespace myGUI
